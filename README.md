@@ -9,11 +9,15 @@ This application gives following features:
 5. Static app with no server calls.
 
 #Starting the application <br />
-git clone  <br />
+git clone  https://github.com/krajasekhar/ReactAppBuilder.git<br />
 cd ReactAppBuilder <br />
 npm install
 npm run start <br />
 Open the browser pointing to http://localhost:8080/ <br />
+<b>Or</b>
+git clone  https://github.com/krajasekhar/ReactAppBuilder.git<br />
+cd ReactAppBuilder <br />
+Open index.html present in dist folder
 
 # Future Scope
 1. Exporting the application built.
