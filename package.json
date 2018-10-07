@@ -1,0 +1,41 @@
+{
+  "name": "ReactAppBuilder",
+  "version": "1.0.0",
+  "description": "dd",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "babel-plugin-react-css-modules": "^3.4.2",
+    "bootstrap": "^4.1.3",
+    "bootswatch": "^4.1.3",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "react-redux": "^5.0.7",
+    "react-simple-storage": "^1.2.2",
+    "redux": "^4.0.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-syntax-dynamic-import": "^6.18.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^1.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "style-loader": "^0.22.1",
+    "uglifyjs-webpack-plugin": "^1.3.0",
+    "webpack": "^4.17.1",
+    "webpack-cli": "^3.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --mode development --config ./webpack.dev.js",
+    "start": "webpack-dev-server --mode development --config ./webpack.dev.js",
+    "newstart": "node webpack-dev-server --mode development --config ./webpack.dev.js",
+    "build": "webpack-dev-server --mode production --config ./webpack.dev.js",
+    "prod": "webpack --mode production --config ./webpack.dev.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
