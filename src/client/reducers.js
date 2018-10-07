@@ -109,6 +109,11 @@ const contentReducers = function (
 	state = initialContentState, action) {
 	let tmpObj = "";
 	switch (action.type) {
+		case 'NAV':
+			// console.info("userNAV");
+			tmpObj = JSON.parse(JSON.stringify(state));
+			tmpObj.curPage = "Content1";
+			return tmpObj;
 		case 'CNAV':
 			// console.info("contentNAV");
 			tmpObj = JSON.parse(JSON.stringify(state));
