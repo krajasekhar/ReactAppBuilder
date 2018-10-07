@@ -39,7 +39,7 @@ class App extends React.Component {
 					</div>
 				</div>
 				<div>
-					<footer className="container-fluid text-center bg-dark blockquote-footer" style={{'bottom':'0','position':'fixed'}}>
+					<footer className="container-fluid text-center bg-dark blockquote-footer" style={{'bottom':'0','position':'float'}}>
 						<div className="container">
 							<div className="copyright">
 								© Copyright <strong>ReactAppBuilder</strong>. All Rights Reserved
@@ -119,9 +119,6 @@ class About extends React.Component {
 					4. Built application works on react with redux.<br />
 					5. Static app with no server calls.<br />
 					<br />
-					#Starting the application <br />
-					Open index.html present inside of dist folder <br />
-					<br />
 
 					# Future Scope<br />
 					1. Exporting the application built.<br />
@@ -129,7 +126,7 @@ class About extends React.Component {
 					3. Providing custom design for the components.<br />
 
 					Built by RajaSekhar K. <br />
-					Submit your issue at github.<br />
+					Submit your issues/suggestions at <a target="_blank" href="https://github.com/krajasekhar/ReactAppBuilder">GitHub</a>.<br />
 				</p>
 			</div>
 		)
